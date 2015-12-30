@@ -7,9 +7,9 @@ new QuoteMatic()
     .fill('#624754')
     .fontSize(120)
     .text('Acerrimus ex omnibus nostris sensibus est sensus videndi')
-    .stream('png')
-    .then(stream => {
-        new QuoteMatic(stream)
+    .buffer('png')
+    .then(buffer => {
+        new QuoteMatic(buffer)
             .geometry('+200+200')
             .composite('media/background.jpg')
             .resize('90%')
