@@ -4,7 +4,8 @@
   "description": "Easy image quote generation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "DEBUG=im node"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/bertez/quotematic#readme",
   "dependencies": {
     "stream-to-array": "^2.2.0"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0"
   }
 }
